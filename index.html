@@ -5,9 +5,10 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Alex Sandro - Portfólio</title>
     <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="https://unpkg.com/aos@next/dist/aos.css" />
 
 </head>
-    <nav id="menu">
+    <nav id="menu" data-aos="fade-down">
         <h1>Alex</h1>
         <h2>ALAN SALGADO CRECI 141.921-F | Corretor de Imóveis</h2>
         <ul> 
@@ -17,7 +18,8 @@
         </ul>
     </nav>
 
-    <div id="contato">
+    <div id="contato" data-aos="fade-up"
+    data-aos-anchor-placement="top-bottom">
         <img src="img/foto_do_menino-small.png" alt="Foto do foto_do_menino-pq">
         <div class="conteudo">
             <h1>Contato</h1>
@@ -28,22 +30,31 @@
                 <a href="#" target="_blank">Formulário</a>
             </div>
         </div>
-        
-    
     </div>
     
     
 
-    <div id="me">
+    <div id="me" data-aos="fade-up"
+    data-aos-anchor-placement="top-bottom">
         <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Fusce nulla lacus, faucibus vel ultricies sed, aliquet vel magna. Etiam egestas nibh at porta interdum. Aenean malesuada tincidunt erat. Etiam sed condimentum felis, ac mollis odio. Curabitur faucibus, nisi eu convallis iaculis, orci turpis congue lorem, eget sodales augue diam nec magna. Quisque diam leo, consectetur a commodo id, ornare vitae nunc. Morbi enim ligula, porta ac erat vitae, fermentum euismod nunc. Cras ac sapien vel purus euismod dictum. Aliquam mattis cursus orci, nec dapibus sem facilisis auctor. Morbi ultrices felis id lobortis convallis. Integer sed varius velit, eget euismod est. Nam turpis enim, vehicula vel lobortis sed, volutpat eu turpis. Fusce scelerisque sagittis dui, ut dignissim orci mollis id. Duis iaculis eros vel rhoncus feugiat. Vivamus ac lacus tellus. Etiam interdum, enim a vulputate porttitor, velit velit convallis dui, vitae porta neque nulla ac nulla.</p>
 
-        <p>Donec in sem quis tellus tempus vulputate id non augue. Proin rutrum erat turpis, non tempus lectus dapibus vitae. Praesent pharetra vehicula urna ac posuere. In fringilla aliquet nisl quis malesuada. Cras maximus vulputate magna, scelerisque efficitur enim pharetra quis. Nam viverra vitae ipsum quis facilisis. Quisque id justo venenatis, finibus orci et, iaculis tortor. Donec viverra diam ac elit tincidunt sollicitudin. Praesent eu lorem sit amet dolor hendrerit euismod a ultrices augue. Ut dapibus sagittis urna, sed sollicitudin eros elementum sed. Cras sit amet magna non nisl porta faucibus. Aliquam rutrum sem eget arcu varius ullamcorper. Sed dignissim, nibh vitae varius bibendum, quam libero feugiat sem, eget posuere nisi libero at massa. In posuere tortor vel sodales porttitor.</p>
+        <p data-aos="fade-up"
+        data-aos-anchor-placement="top-bottom">Donec in sem quis tellus tempus vulputate id non augue. Proin rutrum erat turpis, non tempus lectus dapibus vitae. Praesent pharetra vehicula urna ac posuere. In fringilla aliquet nisl quis malesuada. Cras maximus vulputate magna, scelerisque efficitur enim pharetra quis. Nam viverra vitae ipsum quis facilisis. Quisque id justo venenatis, finibus orci et, iaculis tortor. Donec viverra diam ac elit tincidunt sollicitudin. Praesent eu lorem sit amet dolor hendrerit euismod a ultrices augue. Ut dapibus sagittis urna, sed sollicitudin eros elementum sed. Cras sit amet magna non nisl porta faucibus. Aliquam rutrum sem eget arcu varius ullamcorper. Sed dignissim, nibh vitae varius bibendum, quam libero feugiat sem, eget posuere nisi libero at massa. In posuere tortor vel sodales porttitor.</p>
         
-        <p>Mauris lorem arcu, consequat et mauris vel, posuere gravida ex. Phasellus ac ultrices est. Ut sollicitudin fringilla aliquet. Vivamus venenatis velit sit amet orci porttitor, quis scelerisque ex maximus. In sapien orci, mollis at ipsum vel, dictum dictum ex. Pellentesque sed eros eget mi sodales aliquet sed eget mi. Vestibulum non eleifend risus. Aliquam pharetra eros eu malesuada sagittis.</p>
+        <p data-aos="fade-up"
+        data-aos-anchor-placement="top-bottom">Mauris lorem arcu, consequat et mauris vel, posuere gravida ex. Phasellus ac ultrices est. Ut sollicitudin fringilla aliquet. Vivamus venenatis velit sit amet orci porttitor, quis scelerisque ex maximus. In sapien orci, mollis at ipsum vel, dictum dictum ex. Pellentesque sed eros eget mi sodales aliquet sed eget mi. Vestibulum non eleifend risus. Aliquam pharetra eros eu malesuada sagittis.</p>
     </div>
     
     <footer id="rodape">
         <p>&copy; Desenvolvido por Alex </p>
     </footer>
+
+    <script src="https://unpkg.com/aos@next/dist/aos.js"></script>
+    <script>
+      AOS.init({
+        Duration: 5000,
+        once: true
+      });
+    </script>
 </body>
 </html>
