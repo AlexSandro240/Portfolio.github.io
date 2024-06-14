@@ -18,7 +18,7 @@
         </ul>
     </nav>
 
-    <div id="contato" data-aos="fade-up"
+    <!-- <div id="contato" data-aos="fade-up"
     data-aos-anchor-placement="top-bottom">
         <img src="img/foto_do_menino-small.png" alt="Foto do foto_do_menino-pq">
         <div class="conteudo">
@@ -30,9 +30,29 @@
                 <a href="#" target="_blank">Formulário</a>
             </div>
         </div>
-    </div>
-    
-    
+    </div> -->
+    <form action="https://formsubmit.co/alex.engelux@gmail.com" method="post" id="formulario">
+        <label for="name">Nome:</label>
+        <input type="text" id="name" name="name" required>
+        <label for="tel">Telefone</label>
+        <input type="text" name="tel" id="tel" required>
+        <label for="email">E-mail:</label>
+        <input type="email" id="email" name="email" required>
+        <label for="region">Qual região você quer morar?</label>
+        <select id="region" name="region" required>
+            <option value="Zona Sul">Zona Sul</option>
+            <option value="Zona Leste">Zona Leste</option>
+            <option value="Indefinido">Indefinido</option>
+        </select>
+        <label for="adress">Endereço:</label>
+        <input type="text" name="adress" id="adress">
+        <label for="purpose">Você procura por um empreendimento para... </label>
+        <select id="purpose" name="purpose" required>
+            <option value="morar">Morar</option>
+            <option value="investir">Investir</option>
+        </select>
+        <button type="submit">Enviar</button>
+    </form>
 
     <div id="me" data-aos="fade-up"
     data-aos-anchor-placement="top-bottom">
